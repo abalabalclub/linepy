@@ -278,8 +278,7 @@ try:
     with open("Log_data.json","r",encoding="utf_8_sig") as f:
         msg_dict = json.loads(f.read())
 except:
-    print("Couldn't read Log data")    
-        
+    print("Couldn't read Log data")            
  
 myProfile["displayName"] = clProfile.displayName
 myProfile["statusMessage"] = clProfile.statusMessage
